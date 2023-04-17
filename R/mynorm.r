@@ -1,5 +1,3 @@
-mynorm = function(x){
-  sqrt(t(x)%*%x);
+mynorm <- function(x) {
+  sqrt(t(x) %*% x)
 }
-
-
